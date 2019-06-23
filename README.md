@@ -31,3 +31,41 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 ### Note about ES6
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+
+
+----------------------------
+
+
+
+
+# Restaurant Reviews
+The goal of this poject is to  Make this web application Responsive  Have to increase the accessibility in HTML and CSS along with javascript  Make this application Offline first by using serviceWorker.
+
+## Running the Application
+Cloned the repository which was provided by udacity to my personal computer by using git clone command.
+Installed Python in my local system by using sudo apt-get install python3 command. Changed the directory to my downloaded project
+Run the python http server by using python -m SimpleHTTPServer command it took 8000 as port.
+FInally opened localhost:8000 url in my browser to check the output.
+I did the following steps to complete my Project
+For loading map I copied the JavaScript Token which was provided by MapBox.
+And pasted the token in index.html
+Modified code in main.js committed google map code and uncommitted mapBox code. And then edited dbhelper.js for loading neighborhood map markers.
+Changes in index.html
+Added flex properties to the home page to display cards in proper arrangement. For making this responsive and included <meta> tag with viewport.
+Removed height property from filter-options and added padding property for it in style.css
+Checked accebility by using audit extension, shows some accessibility issues such as color-contrast and lable fields for form-controls.
+Similarly changed some colors in footer section.
+Changes in restaurant.html
+Changed width properties for map and restaurant container and alignment also.
+Added flex properties to the restaurant-conteiner, And also create two classes such as - restaurant-leftChild and - restaurant-rightChild.
+Added <meta> tag along with viewport.
+Changed background and fore ground colors and also added little more styles to the table and and its data.
+Modified styles of reviews container section.
+Registered Service-worker in index.html by using <script> tags and given path of serviceWorker ( sw.js ).
+
+Created sw.js and developed events like install, fetch.
+
+
+
+I manipulated the code in dbhelper.js to work with any server. Committed the url with port and assigned direct path.
+
