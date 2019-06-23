@@ -46,16 +46,16 @@ The goal of this poject is to  Make this web application Responsive  Have to inc
 - Installed Python in my local system by using sudo apt-get install python3 command. Changed the directory to my downloaded project
 - Run the python http server by using python -m SimpleHTTPServer command it took 8000 as port.
 - FInally opened localhost:8000 url in my browser to check the output.
-### I did the following steps to complete my Project
+## I did the following steps to complete my Project
 - For loading map I copied the JavaScript Token which was provided by MapBox.
 - And pasted the token in index.html
 - Modified code in main.js committed google map code and uncommitted mapBox code. And then edited dbhelper.js for loading neighborhood map markers.
-#### Changes in index.html
+## Changes in index.html
 - Added flex properties to the home page to display cards in proper arrangement. For making this responsive and included <meta> tag with viewport.
 - Removed height property from filter-options and added padding property for it in style.css
 - Checked accebility by using audit extension, shows some accessibility issues such as color-contrast and lable fields for form-controls.
 - Similarly changed some colors in footer section.
-##### Changes in restaurant.html
+## Changes in restaurant.html
 - Changed width properties for map and restaurant container and alignment also.
 - added flex properties to the restaurant-conteiner, And also create two classes such as - restaurant-leftChild and - restaurant-rightChild.
 - Added <meta> tag along with viewport.
