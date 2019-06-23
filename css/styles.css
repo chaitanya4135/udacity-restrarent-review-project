@@ -408,6 +408,11 @@ tr:nth-child(even) {
 		padding: 30px 15px 60px;
 		text-align: center;
 	}
+	#restaurant-container {
+	background-color: #40e2d1;
+	
+	}
+
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 	#restaurants-list li {
