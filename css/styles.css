@@ -382,7 +382,7 @@ tr:nth-child(even) {
 	display: block;
 	margin: 1% auto;
 	width: 90%;
-	min-height: 200px;
+	height: 200px;
 	padding: 2px;
        }
 	.left-child {
