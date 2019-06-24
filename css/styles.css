@@ -197,6 +197,7 @@ nav h1 a {
 	margin: 0;
 	font-size: 11pt;
 	text-align: center;
+	width: 100%;
 }
 #restaurants-list li a {
 	background-color: #73215B;
@@ -210,6 +211,7 @@ nav h1 a {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
+	width: 100%;
 }
 /* ====================== Restaurant Details ====================== */
 
@@ -377,7 +379,7 @@ tr:nth-child(even) {
 	}
 	#restaurant-img {
 		width: 90%;
-		height: 50%;
+		height: 25%;
 		display: block;
 		margin: 1% auto;
 	}
