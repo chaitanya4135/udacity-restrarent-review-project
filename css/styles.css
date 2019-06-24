@@ -352,7 +352,7 @@ tr:nth-child(even) {
 		background-color: #f3f3f3;
 		list-style: outside none none;
 		width: 80%;
-		min-height: 500px;
+		height: auto;
 		margin: 1% auto;
 		padding: 30px 15px 60px;
 		text-align: center;
