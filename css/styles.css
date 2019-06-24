@@ -377,7 +377,7 @@ tr:nth-child(even) {
 	}
 	#restaurant-img {
 		width: 90%;
-		height: 400px;
+		height: 50%;
 		display: block;
 		margin: 1% auto;
 	}
